@@ -11,11 +11,11 @@ function findthemissingnumber(numbers){
 }
 
 const testCases = [
-    { arr: [1, 2, 4, 5, 6], n: 6, expected: 3 },
-    { arr: [3, 7, 1, 2, 8, 4, 5], n: 8, expected: 6 },
-    { arr: [1, 2, 3, 4, 6], n: 6, expected: 5 },
-    { arr: [2], n: 2, expected: 1 },
-    { arr: [1, 3], n: 3, expected: 2 }
+    { arr: [1, 2, 4, 5, 6],  expected: 3 },
+    { arr: [3, 7, 1, 2, 8, 4, 5],  expected: 6 },
+    { arr: [1, 2, 3, 4, 6], expected: 5 },
+    { arr: [2], expected: 1 },
+    { arr: [1, 3], expected: 2 }
 ];
 
 testCases.forEach(({ arr, expected }, index) => {
